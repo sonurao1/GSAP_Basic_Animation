@@ -13,6 +13,8 @@ import Cursor from "./components/Cursor.jsx"
 import Nav from "./components/Nav.jsx"
 import TextAnimationHorizontal from "./components/TextAnimationHorizontal.jsx";
 import TextAnimationHorizontalV2 from "./components/TextAnimationHorizontalV2.jsx";
+import VideoComponent from "./components/VideoComponent.jsx";
+
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -244,6 +246,7 @@ function App() {
 
       <TextAnimationHorizontal />
       <TextAnimationHorizontalV2 />
+      <VideoComponent />
 
 
 

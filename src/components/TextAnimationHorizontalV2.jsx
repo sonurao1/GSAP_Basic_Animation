@@ -141,8 +141,8 @@ function TextAnimationHorizontalV2() {
 
 
       {/* Content after horizontal section */}
-      <section className="h-screen bg-gray-200">
-      </section>
+      {/* <section className="h-screen bg-gray-200">
+      </section> */}
     </>
   );
 }
