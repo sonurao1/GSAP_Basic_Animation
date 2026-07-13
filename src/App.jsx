@@ -8,7 +8,11 @@ import ScrollTriggerPin from "./components/ScrollTriggerPin.jsx";
 import ScrollProgressBar from "./components/ScrollProgressBar.jsx";
 import ScrollPinRotate from "./components/ScrollPinRotate.jsx";
 import ScrollHorizontalGallery from "./components/ScrollHorizontalGallery.jsx";
-
+import Cursor from "./components/Cursor.jsx"
+// import ClickBracketCursor from "./components/ClickBracketCursor.jsx";
+import Nav from "./components/Nav.jsx"
+import TextAnimationHorizontal from "./components/TextAnimationHorizontal.jsx";
+import TextAnimationHorizontalV2 from "./components/TextAnimationHorizontalV2.jsx";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -174,6 +178,7 @@ function App() {
 
       </div>
 
+      <Nav />
 
 
 
@@ -233,6 +238,12 @@ function App() {
       <div className="w-full h-[100vh] bg-blue-900" >
 
       </div>
+      <Cursor />
+
+      {/* <ClickBracketCursor />  */}
+
+      <TextAnimationHorizontal />
+      <TextAnimationHorizontalV2 />
 
 
 

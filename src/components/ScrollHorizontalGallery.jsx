@@ -16,7 +16,6 @@ const panels = [
 
 // Problem yeh solve karta hai: NORMAL scroll vertical hota hai, lekin
 // portfolio/gallery sections aksar HORIZONTAL feel dena chahte hain —
-// yehi wo classic "Awwwards" trick hai.
 function ScrollHorizontalGallery() {
   const containerRef = useRef(); // pin hone wala outer wrapper
   const trackRef = useRef(); // panels wali lambi horizontal strip

@@ -186,7 +186,8 @@ function ScrollPinRotate() {
     //
     // React component unmount hone par
     // GSAP automatically cleanup kar sakta hai.
-    scope:sectionRef
+    scope:sectionRef,
+   dependencies:[]
   });
 
 
