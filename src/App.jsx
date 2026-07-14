@@ -1,19 +1,29 @@
 import { useState, useEffect } from "react";
 import Lenis from "lenis";
 
-import Card from "./components/Card.jsx";
+// import Card from "./components/Card.jsx";
 import Counter from "./components/Counter.jsx";
-import ScrollTriggerComponent from "./components/ScrollTrigger.jsx";
-import ScrollTriggerPin from "./components/ScrollTriggerPin.jsx";
-import ScrollProgressBar from "./components/ScrollProgressBar.jsx";
-import ScrollPinRotate from "./components/ScrollPinRotate.jsx";
-import ScrollHorizontalGallery from "./components/ScrollHorizontalGallery.jsx";
+// import ScrollTriggerComponent from "./components/ScrollTrigger.jsx";
+// import ScrollTriggerPin from "./components/ScrollTriggerPin.jsx";
+// import ScrollProgressBar from "./components/ScrollProgressBar.jsx";
+// import ScrollPinRotate from "./components/ScrollPinRotate.jsx";
+// import ScrollHorizontalGallery from "./components/ScrollHorizontalGallery.jsx";
 import Cursor from "./components/Cursor.jsx"
-// import ClickBracketCursor from "./components/ClickBracketCursor.jsx";
-import Nav from "./components/Nav.jsx"
-import TextAnimationHorizontal from "./components/TextAnimationHorizontal.jsx";
-import TextAnimationHorizontalV2 from "./components/TextAnimationHorizontalV2.jsx";
-import VideoComponent from "./components/VideoComponent.jsx";
+// // import ClickBracketCursor from "./components/ClickBracketCursor.jsx";
+// import Nav from "./components/Nav.jsx"
+// import TextAnimationHorizontal from "./components/TextAnimationHorizontal.jsx";
+// import TextAnimationHorizontalV2 from "./components/TextAnimationHorizontalV2.jsx";
+// import VideoComponent from "./components/VideoComponent.jsx";
+
+//importing pluginwisecomponents 
+import  ScrollTriggerExample from "./pluginWiseComponents/01-ScrollTrigger-Example.jsx";
+import SplitTextExample from "./pluginWiseComponents/02-SplitText-Example.jsx"
+import FlipExample from "./pluginWiseComponents/03-Flip-Example.jsx"
+import ScrollSmootherExample from "./pluginWiseComponents/04-ScrollSmoother-Example.jsx"
+import DraggableExample from "./pluginWiseComponents/05-Draggable-Example.jsx"
+import  DrawMorphExample from "./pluginWiseComponents/06-DrawSVG-MorphSVG-Example.jsx"
+import CustomEaseExample from "./pluginWiseComponents/07-CustomEase-Example.jsx"
+import MegaMixAllPlugins from "./pluginWiseComponents/08-MegaMix-AllPlugins-Example.jsx"
 
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
@@ -159,7 +169,7 @@ function App() {
 
       {/* LOADER */}
 
-      <div
+      {/* <div
         className="
         loader-box
         fixed
@@ -178,16 +188,16 @@ function App() {
 
         <Counter />
 
-      </div>
+      </div> */}
 
-      <Nav />
+      {/* <Nav /> */}
 
 
 
 
       {/* CARDS SECTION */}
 
-      <section
+      {/* <section
         className="
         w-full
         h-screen
@@ -217,7 +227,7 @@ function App() {
         />
 
 
-      </section>
+      </section> */}
 
 
 
@@ -226,27 +236,38 @@ function App() {
       {/* SCROLL ANIMATIONS */}
 
 
-      <ScrollTriggerComponent />
+      {/* <ScrollTriggerComponent />
 
 
       <ScrollTriggerPin />
 
 
-      <ScrollPinRotate />
+      <ScrollPinRotate /> */}
 
 
-      <ScrollProgressBar />
+      {/* <ScrollProgressBar />
       <ScrollHorizontalGallery />
       <div className="w-full h-[100vh] bg-blue-900" >
 
-      </div>
+      </div> */}
       <Cursor />
 
       {/* <ClickBracketCursor />  */}
 
-      <TextAnimationHorizontal />
-      <TextAnimationHorizontalV2 />
-      <VideoComponent />
+      {/* <TextAnimationHorizontal /> */}
+      {/* <TextAnimationHorizontalV2 /> */}
+      {/* <VideoComponent /> */}
+
+
+      //importing pluginwisecomponents
+      <ScrollTriggerExample />
+      <SplitTextExample />
+      <FlipExample />
+      {/* <ScrollSmootherExample /> */}
+      {/* <DraggableExample /> */}
+      {/* <DrawMorphExample /> */}
+      {/* <CustomEaseExample /> */}
+      {/* <MegaMixAllPlugins /> */}
 
 
 
